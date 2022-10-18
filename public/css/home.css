@@ -35,8 +35,9 @@ section:nth-child(even) {
     display: inline-block;
     font-size: 1.7rem;
     color: #fff;
-    background: var(--black);
+    background: #eb5c27;
     border-radius: 0.5rem;
+    border: 1px solid white;
     cursor: pointer;
     padding: 0.8rem 3rem;
 }
@@ -51,11 +52,10 @@ section:nth-child(even) {
     padding-top: 1rem;
 }
 .heading {
-    text-align: center;
-    color: var(--black);
+    text-align: left;
+    color: black;
     font-size: 3rem;
-    padding-bottom: 2rem;
-    text-transform: uppercase;
+    padding: 3rem;
 }
 header {
     position: fixed;
@@ -115,7 +115,7 @@ header .icons a {
 header .icons i:hover,
 header .icons a:hover {
     color: #fff;
-    background: blue;
+    background: #eb5c27;
     transform: rotate(360deg);
 }
 header .icons #menu-bars {
@@ -209,7 +209,7 @@ header .icons #menu-bars {
 }
 .dishes .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1.5rem;
 }
 .dishes .box-container .box {
@@ -532,7 +532,7 @@ header .icons #menu-bars {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(237, 242, 246);
+    background-color: white;
     border-radius: 3px;
     justify-content: center;
     align-items: center;
@@ -547,7 +547,6 @@ header .icons #menu-bars {
 .flex-container .row .image {
     margin: 7px;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 20px;
 }
 .flex-container .row .image .description {
@@ -558,8 +557,7 @@ header .icons #menu-bars {
 
 .flex-container .row .image > img {
     display: flex;
-    background-color: #f5eeee;
-    width: 300px;
+    width: 250px;
     padding: 5px;
     margin: 10px;
     text-align: center;
